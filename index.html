@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Kotha</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <div class="top">
+      <div class="wrapper">
+        <div class="top-mail">Contact us at 
+          <i class="fa fa-envelope" aria-hidden="true"></i><span class="email">thekotha@gmail.com</span>
+        </div>
+      </div>
+    </div>
+    <div class="top-nav wrapper">
+      <div class="logo" onclick="home()">
+        <img src="images/kotha-logo.png" id="logo" />
+      </div>
+      <form action="" id="home-form">
+        <input
+          type="text"
+          placeholder="Type location eg:Koteshwor"
+          id="location"
+        />
+        <div class="home-form-save">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+      </form>
+      <div class="middle-nav">
+        <ul id="drop-down-list">
+          <li class="li-login"><a href=""><i class="fa fa-sign-in" aria-hidden="true"></i>
+            Login</a></li>
+          <li class="li-register"><a href=""><i class="fa fa-user-plus" aria-hidden="true"></i>
+            Register</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <ul class="breadcrumb  result-post">
+        <div>
+          <li><a href="index.html">Home</a></li>
+          <li>All Results</li>
+        </div>
+          <div class="parent-post-ad">
+            <li class="ad"><a href="registration.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
+              Post Ad</a></li>
+          </div>  
+        </ul>
+  </div>
+
+    <div id="banner-page" class="wrapper">
+      <div class="main-left-banner" >
+        <div class="left-banner-page">
+          <div class="advance-search">
+          <h3 class="filter-heading">Advance Filter</h3>
+          <div class="min-price">
+            <div class="select-heading">Min Price</div>
+            <select name="" id="">
+              <option value="">Any</option>
+              <option value="">Rs 1000</option>
+              <option value="">Rs 2000</option>
+            </select>
+          </div>
+
+          <div class="max-price">
+            <div class="select-heading">Max Price</div>
+            <select name="" id="">
+              <option value="">Any</option>
+              <option value="">Rs 8000</option>
+              <option value="">Rs 9000</option>
+            </select>
+          </div>
+
+          <div class="type">
+            <div class="select-heading">Type</div>
+            <select name="" id="">
+              <option value="">Any</option>
+              <option value="">Flat</option>
+              <option value="">House</option>
+              <option value="">Bungalow</option>
+            </select>
+          </div>
+
+          <div class="type">
+            <div class="select-heading">Location</div>
+            <form action="" id="area-form">
+              <input type="text" placeholder="All Nepal" id="area" />
+            </form>
+          </div>
+          <button>Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="main-room-container">
+        <div class="main-room-tab">
+          <div class="main-room-tab-left">
+            <div class="recent active">Recent</div>
+            <div class="most-viewed">Most Viewed</div>
+          </div>
+          <div class="main-room-tab-right"><span class="filter">Filter</span>
+            <a href="#" class="mobile-icon" onclick="slideshow()">&equiv;</a>
+          </div>
+        </div>
+        <div class="main-rooms">
+          <div class="room-image">
+            <figure>
+              <a href="#">
+                <img src="images/b.jpg" alt="" />
+              </a>
+            </figure>
+          </div>
+          <!--room image ends-->
+
+          <div class="room-texts">
+            <h3 class="room-title">3 Room flat or 2 room flat in bhaisipati</h3>
+            <div class="location">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p>koteshwor, kathmandu</p>
+            </div>
+
+            <!-- <p class="description">
+              Single Bedroom Flat Fully Furnished Available For Rent Includes Tv
+              Refrigerator Electri Geyser Free Wifi 24 Hours Water
+            </p> -->
+
+            <div class="price-box">
+              <p class="rs">Rs</p>
+              <p class="price">10000/month</p>
+            </div>
+
+            <div class="contact">
+              <div class="contact-name">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <p class="person-name">bhimraj rai kaji limbu</p>
+              </div>
+              <div class="phone-box">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <p class="phone">9811982735</p>
+              </div>
+              <div class="ads-date">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+
+                <p class="date">11th june 2020</p>
+              </div>
+            </div>
+            <!--contact ends-->
+          </div>
+          <!--room texts end-->
+        </div>
+        <!--main room ends-->
+        <div class="main-rooms">
+          <div class="room-image">
+            <figure>
+              <a href="#">
+                <img src="images/b.jpg" alt="" />
+              </a>
+            </figure>
+          </div>
+          <!--room image ends-->
+
+          <div class="room-texts">
+            <h3 class="room-title">3 Room room in Baneshwor</h3>
+               <div class="location">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p>koteshwor, kathmandu</p>
+            </div>
+            <!-- <p class="description">
+              Single Bedroom Flat Fully Furnished Available For Rent Includes Tv
+              Refrigerator Electri Geyser Free Wifi 24 Hours Water
+            </p> -->
+
+            <div class="price-box">
+              <p class="rs">Rs</p>
+              <p class="price">17000/month</p>
+            </div>
+
+            <div class="contact">
+              <div class="contact-name">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <p class="person-name">bhimraj kaji limbu</p>
+              </div>
+              <div class="phone-box">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <p class="phone">9811982735</p>
+              </div>
+              <div class="ads-date">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+
+                <p class="date">11th june 2020</p>
+              </div>
+            </div>
+            <!--contact ends-->
+          </div>
+          <!--room texts end-->
+        </div>
+        <!--main room ends-->
+
+        <div class="main-rooms">
+          <div class="room-image">
+            <figure>
+              <a href="#">
+                <img src="images/b.jpg" alt="" />
+              </a>
+            </figure>
+          </div>
+          <!--room image ends-->
+
+          <div class="room-texts">
+            <h3 class="room-title">2 Room flat in Koteshwor</h3>
+            <div class="location">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p>koteshwor, kathmandu</p>
+            </div>
+            <!-- <p class="description">
+              Single Bedroom Flat Fully Furnished Available For Rent Includes Tv
+              Refrigerator Electri Geyser Free Wifi 24 Hours Water
+            </p> -->
+
+            <div class="price-box">
+              <p class="rs">Rs</p>
+              <p class="price">10000/month</p>
+            </div>
+
+            <div class="contact">
+              <div class="contact-name">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <p class="person-name">bhimraj rai kaji limbu</p>
+              </div>
+              <div class="phone-box">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <p class="phone">9811982735</p>
+              </div>
+              <div class="ads-date">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+
+                <p class="date">11th june 2020</p>
+              </div>
+            </div>
+            <!--contact ends-->
+          </div>
+          <!--room texts end-->
+        </div>
+        <!--main room ends-->
+
+        <div class="main-rooms">
+          <div class="room-image">
+            <figure>
+              <a href="#">
+                <img src="images/b.jpg" alt="" />
+              </a>
+            </figure>
+          </div>
+          <!--room image ends-->
+
+          <div class="room-texts">
+            <h3 class="room-title">2 Room flat in budhanilkantha</h3>
+            <div class="location">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p>budhanilkantha, kathmandu</p>
+            </div>
+            <!-- <p class="description">
+              Single Bedroom Flat Fully Furnished Available For Rent Includes Tv
+              Refrigerator Electri Geyser Free Wifi 24 Hours Water
+            </p> -->
+
+            <div class="price-box">
+              <p class="rs">Rs</p>
+              <p class="price">10000/month</p>
+            </div>
+
+            <div class="contact">
+              <div class="contact-name">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <p class="person-name">bhimraj rai kaji limbu</p>
+              </div>
+              <div class="phone-box">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <p class="phone">9811982735</p>
+              </div>
+              <div class="ads-date">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+
+                <p class="date">11th june 2020</p>
+              </div>
+            </div>
+            <!--contact ends-->
+          </div>
+          <!--room texts end-->
+        </div>
+        <!--main room ends-->
+      </div>
+      <!--main room container-->
+    </div>
+
+    <footer class="wrapper">
+      <div class="kotha-footer">
+        <ul>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">advertise</a></li>
+          <li><a href="#">careers</a></li>
+          <li><a href="#">feed back</a></li>
+          <li><a href="#">terms and policy</a></li>
+        </ul>
+      </div>
+
+      <div class="sprite">
+        <ul>
+          <li><a href="" class="icon"></a></li>
+          <li><a href="" class="icon instagram"></a></li>
+          <li><a href="" class="icon gmail"></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
